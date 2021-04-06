@@ -1,5 +1,5 @@
 // Write your code here!
 
-const main = document.selectElementById('main');
+const main = document.querySelector('#main');
 
 main.remove();
