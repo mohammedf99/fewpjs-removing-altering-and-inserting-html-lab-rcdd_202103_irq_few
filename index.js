@@ -1,5 +1,9 @@
 // Write your code here!
 
 const main = document.querySelector('#main');
+const h1 = document.querySelector('#victory');
 
 main.remove();
+
+const newHeader = document.createElement('header');
+h1.append(newHeader);
