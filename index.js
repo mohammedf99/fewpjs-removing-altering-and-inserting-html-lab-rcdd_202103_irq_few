@@ -7,5 +7,4 @@ main.remove();
 
 const newHeader = document.createElement('h1');
 newHeader.setAttribute('id', 'victory');
-newHeader.innerHTML = 'champion';
-h1.append(newHeader);
+h1.appendChild(newHeader);
